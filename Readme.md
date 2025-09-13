@@ -17,9 +17,9 @@ The project combines **hardware control, live signal monitoring, and cloud integ
 ---
 
 ## 📂 Project Structure
-│── arduino/ # Arduino sketches (EMG, OLED, RGB control)
-│── nodemcu/ # NodeMCU (ESP8266) code for IoT + cloud sync
-│── website/ # Frontend website code (HTML, CSS, JS)
+    │── arduino/ # Arduino sketches (EMG, OLED, RGB control)
+    │── nodemcu/ # NodeMCU (ESP8266) code for IoT + cloud sync
+    │── website/ # Frontend website code (HTML, CSS, JS)
 
 ---
 
