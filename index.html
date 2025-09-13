@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuroFlex</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicom.png" type="image/x-icon">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <video id="bg-video" autoplay="autoplay" muted="muted" loop="loop" playsinline>
+  <source src="bg.mp4" type="video/mp4">
+</video>
+<div class="video-overlay"></div>
+    <div class="overlay">
+      <h1 class="welcome">Welcome to</h1>
+      <h1 class="neuroflex">NEUROFLEX</h1>
+    </div>
+    <canvas id="particles"></canvas>
+  </section>
+
+  <!-- Content Section -->
+  <section class="content">
+    <div class="scroll-section">
+      <button id="fetchBtn">Retrieve EMG Data</button>
+    </div>
+
+    <div id="chart-container">
+      <canvas id="emgChart"></canvas>
+    </div>
+
+    <div id="ai-summary" class="summary-box"></div>
+
+    <button id="homeBtn" class="hidden">Swipe UP</button>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
